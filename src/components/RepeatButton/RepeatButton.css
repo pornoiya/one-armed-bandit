@@ -1,0 +1,11 @@
+.app-button {
+    border-radius: 100px;
+    box-shadow: 0 0 64px 20px rgba(0, 0, 0, 0.07);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 50px;
+    padding: 0 30px;
+    color: #FFF;
+    background: linear-gradient(0.25turn, #64c3ff,  #fd9afc);
+}

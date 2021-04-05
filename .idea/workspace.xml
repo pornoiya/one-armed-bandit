@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="691e5b11-6819-4f38-9724-2952f07b276c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/one-armed-bandit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RepeatButton/RepeatButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RepeatButton/RepeatButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/tochka sans/TochkaSans-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/tochka sans/TochkaSans-Demi.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/tochka sans/TochkaSans-Heavy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/tochka sans/TochkaSans-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/tochka sans/TochkaSans-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/tochka sans/TochkaSans-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleBlack.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleBlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleLightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleMedium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleMediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleRegular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleSemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/аnglecia_pro_title/AngleciaProTitleSemiBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/16 (1).png'" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/reel1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/reel2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/reel3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pic/won.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pICyu8heUg29goTmvLaKX9DCO2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="691e5b11-6819-4f38-9724-2952f07b276c" name="Default Changelist" comment="" />
+      <created>1614861475136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614861475136</updated>
+      <workItem from="1614861476816" duration="616000" />
+      <workItem from="1615312958119" duration="4716000" />
+      <workItem from="1615644291237" duration="235000" />
+      <workItem from="1616835443374" duration="456000" />
+      <workItem from="1616936221888" duration="20309000" />
+      <workItem from="1617288554420" duration="1954000" />
+      <workItem from="1617295075956" duration="2148000" />
+      <workItem from="1617550494206" duration="1608000" />
+      <workItem from="1617625936880" duration="576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,38 +1,173 @@
+@font-face {
+  font-family: "TochkaSans-Regular";
+  src: url("./fonts/tochka sans/TochkaSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "TochkaSans-Bold";
+  src: url("./fonts/tochka sans/TochkaSans-Bold.otf");
+}
+
+body, button {
+  font-family: 'TochkaSans-Regular', sans-serif;
+}
+
+.spinner-container {
+  background-image: url("./pic/16 (1).png");
+}
+
+.won {
+  opacity: 0.3;
+  width: 100%;
+  height: 760px;
+  animation: translating 2s ease-out;
+  background: #fff url("pic/won.png") repeat-y;
+}
+
+@keyframes translating {
+  0%   { transform: translate(0, -1000px); }
+  100%  { transform: translate(0, 0px); }
+}
+
+button:hover {
+  box-shadow: 0 0 64px 20px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  background: linear-gradient(0.25turn, #4b72ff, #C198e5);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: black;
+  font-size: 150%;
+  padding: 0.25em .5em;
+  font-family: TochkaSans-Bold, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.icons {
+  display: inline-block;
+  height: 564px;
+  overflow: hidden;
+  will-change: backgroundPosition;
+  transition: 0.3s background-position ease-in-out;
+  padding: 0 80px;
+  transform: translateZ(0);
+}
+
+.icons:first-child {
+  background: #fff url("pic/reel1.svg") repeat-y;
+}
+
+.icons:nth-child(3) {
+  background: #fff url("pic/reel3.svg") repeat-y;
+}
+
+.icons:nth-child(2) {
+  margin: 0 10px;
+  background: #fff url("pic/reel2.svg") repeat-y;
+}
+
+* { box-sizing: border-box; }
+
+.spinner-container {
+  overflow: hidden;
+  height: 632px;
+  padding: 2em;
+  transform: translate(-50%, -50%) scale(.62, .62);
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  display: flex;
+  transition: 0.3s transform;
+}
+
+.status {
+  text-align: center;
+  position: absolute;
+  top: 500px;
+}
+
+.App .app-button {
+  position: absolute;
+  top: 600px;
+}
+
+.app-wrap.winner-false {
+  animation: linear 1s spin;
+}
+
+.title {
+  background: -webkit-linear-gradient(0.25deg,  #64c3ff, #fd9afc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spinner-container::after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 180px;
+  top: 50%;
+  width: 493px;
+  transform: translateY(-50%);
+  right: 30px;
+  left: 37px;
+  background: rgba(200, 0, 255, .1);
+}
+
+.gradient-fade {
+  width: 88%;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  bottom: 32px;
+  left: 32px;
+}
+
+@media screen and (max-width: 1000px) {
+  .spinner-container {
+    transform: translate(-50%, -50%) scale(.55, .55);
   }
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    margin-top: 10px;
+  }
+
+  .spinner-container {
+    overflow: hidden;
+    height: 632px;
+    padding: 2em;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    display: flex;
+    transition: 0.3s transform;
+    transform: translate(-50%, -50%) scale(.4, .4);
+  }
+
+  .status {
+    text-align: center;
+    position: absolute;
+    top: 370px;
+  }
+
+  .App .app-button {
+    top: 460px;
+  }
+}
+
+@keyframes winner {
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg)
   }
 }
